@@ -7,7 +7,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 <head>
     <meta charset="utf-8">
     <title>Clients</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>
@@ -28,7 +28,7 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
       <td><?php echo $row['email']; ?></td>
       <td><?php echo $row['phone']; ?></td>
       <td>
-        <a href="clients_edit.php?id=<?php echo $row['client_id']; ?>" style="color: #3498db; text-decoration: none; font-weight: bold;">Edit</a>
+        <a href="clients_edit.php?id=<?php echo $row['client_id']; ?>" style="font-weight: bold;">Edit</a>
       </td>
     </tr>
   <?php } ?>

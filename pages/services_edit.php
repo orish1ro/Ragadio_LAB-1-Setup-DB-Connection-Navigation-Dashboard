@@ -24,7 +24,7 @@ if (isset($_POST['update'])) {
 <head>
     <meta charset="utf-8">
     <title>Edit Service</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>
@@ -37,18 +37,18 @@ if (isset($_POST['update'])) {
       <input type="text" name="service_name" value="<?php echo $service['service_name']; ?>">
      
       <label>Description</label>
-      <textarea name="description" rows="4" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;"><?php echo $service['description']; ?></textarea>
+      <textarea name="description" rows="4"><?php echo $service['description']; ?></textarea>
      
       <label>Hourly Rate</label>
       <input type="text" name="hourly_rate" value="<?php echo $service['hourly_rate']; ?>">
      
       <label>Active</label>
-      <select name="is_active" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+      <select name="is_active">
         <option value="1" <?php if($service['is_active']==1) echo "selected"; ?>>Yes</option>
         <option value="0" <?php if($service['is_active']==0) echo "selected"; ?>>No</option>
       </select>
      
-      <button type="submit" name="update" class="btn">Update Service</button>
+      <button type="submit" name="update">Update Service</button>
     </form>
 </div>
 </body>

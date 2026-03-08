@@ -7,7 +7,7 @@ $result = mysqli_query($conn, "SELECT * FROM services ORDER BY service_id DESC")
 <head>
     <meta charset="utf-8">
     <title>Services</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>
@@ -29,7 +29,7 @@ $result = mysqli_query($conn, "SELECT * FROM services ORDER BY service_id DESC")
       <td>₱<?php echo number_format($row['hourly_rate'], 2); ?></td>
       <td><?php echo $row['is_active'] ? "Yes" : "No"; ?></td>
       <td>
-        <a href="services_edit.php?id=<?php echo $row['service_id']; ?>" style="color: #3498db; text-decoration: none; font-weight: bold;">Edit</a>
+        <a href="services_edit.php?id=<?php echo $row['service_id']; ?>" style="font-weight: bold;">Edit</a>
       </td>
     </tr>
   <?php } ?>

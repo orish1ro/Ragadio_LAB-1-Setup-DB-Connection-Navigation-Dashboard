@@ -22,7 +22,7 @@ if (isset($_POST['save'])) {
 <head>
     <meta charset="utf-8">
     <title>Add Client</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>

@@ -26,22 +26,28 @@ if (isset($_POST['update'])) {
 <head>
     <meta charset="utf-8">
     <title>Edit Client</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>
+
 <h2>Edit Client</h2>
+
 <div class="container">
     <p style="color:red;"><?php echo $message; ?></p>
     <form method="post">
       <label>Full Name*</label>
       <input type="text" name="full_name" value="<?php echo $client['full_name']; ?>" required>
+      
       <label>Email*</label>
       <input type="email" name="email" value="<?php echo $client['email']; ?>" required>
+      
       <label>Phone</label>
       <input type="text" name="phone" value="<?php echo $client['phone']; ?>">
+      
       <label>Address</label>
       <input type="text" name="address" value="<?php echo $client['address']; ?>">
+      
       <button type="submit" name="update">Update Client</button>
     </form>
 </div>
