@@ -1,3 +1,4 @@
+// LAb 5
 <?php
 $host = "localhost";
 $user = "root";

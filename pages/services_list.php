@@ -36,3 +36,4 @@ $result = mysqli_query($conn, "SELECT * FROM services ORDER BY service_id DESC")
 </table>
 </body>
 </html>
+// LAb 5

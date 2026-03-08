@@ -79,3 +79,4 @@ $bookings = mysqli_query($conn, "SELECT booking_id FROM bookings ORDER BY bookin
  
 </body>
 </html>
+// LAb 5

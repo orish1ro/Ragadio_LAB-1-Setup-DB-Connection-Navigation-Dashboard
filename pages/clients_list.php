@@ -35,3 +35,4 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 </table>
 </body>
 </html>
+// LAb 5
