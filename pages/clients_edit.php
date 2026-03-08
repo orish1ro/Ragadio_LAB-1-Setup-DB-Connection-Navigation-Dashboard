@@ -1,4 +1,5 @@
 <?php
+//LAB 6
 include "../db.php";
 $id = $_GET['id'];
 $get = mysqli_query($conn, "SELECT * FROM clients WHERE client_id = $id");
@@ -53,4 +54,3 @@ if (isset($_POST['update'])) {
 </div>
 </body>
 </html>
-// LAb 5

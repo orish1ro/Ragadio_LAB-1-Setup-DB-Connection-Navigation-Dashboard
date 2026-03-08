@@ -1,6 +1,6 @@
 <?php
 include "../db.php";
- 
+ //LAB 6
 $sql = "
 SELECT p.*, b.booking_date, c.full_name
 FROM payments p
@@ -37,4 +37,3 @@ $result = mysqli_query($conn, $sql);
  
 </body>
 </html>
- // LAb 5

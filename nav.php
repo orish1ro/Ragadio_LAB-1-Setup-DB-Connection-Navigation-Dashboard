@@ -1,4 +1,5 @@
-<?php // nav.php ?>
+<?php //LAB 6 ?>
+
 <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;">
   <a href="/assessment_beginner/index.php">Dashboard</a>
   <a href="/assessment_beginner/pages/clients_list.php">Clients</a>
@@ -9,4 +10,3 @@
 </div>
 <hr>
 
-// LAb 5

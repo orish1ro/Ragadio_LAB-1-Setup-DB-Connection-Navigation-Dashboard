@@ -1,4 +1,5 @@
 <?php
+//LAB 6
 include "../db.php";
  
 $clients = mysqli_query($conn, "SELECT * FROM clients ORDER BY full_name ASC");

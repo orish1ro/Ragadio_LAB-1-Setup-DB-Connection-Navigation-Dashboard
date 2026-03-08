@@ -1,5 +1,6 @@
-// LAb 5
+
 <?php
+//LAB 6
 $host = "localhost";
 $user = "root";
 $pass = "";
