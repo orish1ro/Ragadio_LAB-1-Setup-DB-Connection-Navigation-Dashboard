@@ -1,6 +1,6 @@
 <?php
 include "../db.php";
- //LAB 6
+ //LAB 7
 $sql = "
 SELECT p.*, b.booking_date, c.full_name
 FROM payments p

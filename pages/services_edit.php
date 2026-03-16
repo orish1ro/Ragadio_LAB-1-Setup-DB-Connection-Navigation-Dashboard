@@ -2,7 +2,7 @@
 <?php
 include "../db.php";
 $id = $_GET['id'];
-//LAB 6
+//LAB 7
  
 $get = mysqli_query($conn, "SELECT * FROM services WHERE service_id = $id");
 $service = mysqli_fetch_assoc($get);

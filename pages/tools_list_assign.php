@@ -2,7 +2,7 @@
 include "../db.php";
  
 $message = "";
-//LAB 6 
+//LAB 7
 // ASSIGN TOOL
 if (isset($_POST['assign'])) {
   $booking_id = $_POST['booking_id'];

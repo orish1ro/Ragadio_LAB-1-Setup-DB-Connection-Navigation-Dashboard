@@ -8,7 +8,7 @@ include "../db.php";
 if (isset($_GET['delete_id'])) {
   $delete_id = $_GET['delete_id'];
  
- 
+   //LAB 7
   // Soft delete (set is_active to 0)
   mysqli_query($conn, "UPDATE services SET is_active=0 WHERE service_id=$delete_id");
  

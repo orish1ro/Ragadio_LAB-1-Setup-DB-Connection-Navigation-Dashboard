@@ -2,7 +2,7 @@
 include "../db.php";
 $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 ?>
-<!-- LAB 6 -->
+<!-- LAB 7 -->
 <!doctype html>
 <html>
 <head>

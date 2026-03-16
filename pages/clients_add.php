@@ -1,5 +1,5 @@
 <?php
-//LAB 6
+//LAB 7
 include "../db.php";
 $message = "";
 if (isset($_POST['save'])) {

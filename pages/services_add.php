@@ -8,7 +8,7 @@ if (isset($_POST['save'])) {
   $description = $_POST['description'];
   $hourly_rate = $_POST['hourly_rate'];
   $is_active = $_POST['is_active'];
- //LAB 6
+ //LAB 7
   // simple validation
   if ($service_name == "" || $hourly_rate == "") {
     $message = "Service name and hourly rate are required!";

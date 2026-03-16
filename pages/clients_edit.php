@@ -1,5 +1,5 @@
 <?php
-//LAB 6
+//LAB 7
 include "../db.php";
 $id = $_GET['id'];
 $get = mysqli_query($conn, "SELECT * FROM clients WHERE client_id = $id");
